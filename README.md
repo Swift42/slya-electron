@@ -12,9 +12,12 @@ Works with: Windows, Linux, MacOS, ARM64, ...
 4) Start the app with "SLYA.sh" (on Linux) or "SLYA.bat" (on Windows). It may be useful to create a shortcut/launcher for it. Alternatively you can start the electron app with the parameter ".", so e.g. "electron.exe ." on Windows or "./electron ." on Linux.
 5) When SLYA has started, you will see the error message "phantom is not defined" in the console. This is because you need to set your wallet key in the SLYA settings (Tools -> Settings -> Advanced). After you set the key, use the reload button. Done.
 
-The SLYA standalone version comes with three additional buttons: 
+The SLYA standalone version comes with three additional buttons:
+
 Reload: The app gets reloaded
+
 Update: Check for an update and optionally install it
+
 Console: Open the error console
 
 SLYA's data is saved into the "data" subfolder, so if you want to run multiple instances, just duplicate the full electron folder and start the second instance from the duplicated folder (this way each instance has its own data folder).
