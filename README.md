@@ -8,7 +8,7 @@ Works with: Windows, Linux, MacOS, ARM64, ...
 ## Instructions:
 1) Go to https://github.com/electron/electron/releases/tag/v35.1.0
 2) Download the "electron-v35.1.0-[...]" version for your OS/CPU (e.g. "linux-arm64" is for the Raspberry Pi 5) and unpack it
-3) Download this repository as a ZIP and unpack the ZIP in the electron program folder
+3) Download slya-electron.zip from here and unpack the ZIP in the electron program folder
 4) Start the app with "SLYA.sh" (on Linux) or "SLYA.bat" (on Windows). It may be useful to create a shortcut/launcher for it. Alternatively you can start the electron app with the parameter ".", so e.g. "electron.exe ." on windows or "./electron ." on linux).
 5) When SLYA has started, you will see the error message "phantom is not defined". This is because you need to set your wallet key in the SLYA settings (Tools -> Settings -> Advanced). After you set the key, use the reload button. Done.
 
