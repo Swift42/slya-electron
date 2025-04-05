@@ -10,7 +10,7 @@ Works with: Windows, Linux, MacOS, ARM64, ...
 2) Download the "electron-v35.1.0-[...]" version for your OS/CPU (e.g. "linux-arm64" is for the Raspberry Pi 5) and unpack it
 3) Download slya-electron.zip from here and unpack the ZIP in the electron program folder
 4) Start the app with "SLYA.sh" (on Linux) or "SLYA.bat" (on Windows). It may be useful to create a shortcut/launcher for it. Alternatively you can start the electron app with the parameter ".", so e.g. "electron.exe ." on Windows or "./electron ." on Linux.
-5) When standalone app has started, it will automatically download the latest SLYA version and tells you that the wallet key is missing. Follow the instructions to add the key.
+5) When the standalone app has started, it will automatically download the latest SLYA version and tells you that the wallet key is missing. Follow the instructions to add the key.
 
 The SLYA standalone version comes with three additional buttons:
 
