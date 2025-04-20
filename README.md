@@ -30,3 +30,6 @@ SLYA's data is saved into the "data" subfolder, so if you want to run multiple i
 
 ## Troubleshooting:
 Linux: if you get an error about a "sandbox helper binary", either make sure the file "chrome-sandbox" is owned by root or alternatively start electron with "electron --no-sandbox ." 
+
+Windows: The Windows security may block the SLYA.bat file. Fix: Right click on the bat file -> Properties -> Unblock.
+
